@@ -1,0 +1,26 @@
+.show{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    direction: rtl;
+    
+    p{
+        padding: 5em;
+        background-color: $mainColor;
+        color: $w;
+        border-radius: 8px;
+        word-spacing: 1em;
+        line-height: 4em;
+    }
+    i{
+        font-size: 2em;
+        color: gold;
+    }
+}
+a{
+    float: right;
+    margin:1em 5em;
+}

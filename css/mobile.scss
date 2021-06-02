@@ -1,0 +1,73 @@
+@media only screen and (max-width:980px) {
+
+    /*********/
+    /*HEADER*/
+    .header {
+        margin-bottom: 150px;
+
+        .bg-gray {
+            background-color: lighten($gray, 30%);
+            min-height: 70vh;
+clip-path: circle(68.0% at 49% 0);
+        }
+
+        #header-pic {
+            width: 80%;
+            height: 80%;
+            margin:-70% auto 0 auto;
+        }
+
+        .about {
+            margin-bottom: 50%;
+        }
+
+        .logo {
+            margin-left: -100%;
+            margin-bottom: -100px;
+        }
+    }
+
+    /*R1*/
+    #r1 {
+        margin: 500px 0 200px 0;
+
+        p {
+            font-size: 2.2em;
+            width: 60%;
+            line-height: 3em;
+        }
+    }
+
+
+    /*FORM*/
+    form {
+        width: 90% !important;
+    }
+
+    /*********/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:770px) and (max-width:976px) {
+    
+}
