@@ -45,3 +45,29 @@ function scrollUp(){
      }
 }
 window.addEventListener('scroll',scrollUp);
+
+
+function validate(){
+    const email = document.getElementById('email').value;
+    const atSign = email.indexOf('@');
+    const afterAtSign = email.substring(atSign);
+    
+    if(
+        afterAtSign.indexOf('@') != -1 &&
+         afterAtSign.indexOf('.') != -1 &&
+         afterAtSign.indexOf('.') > afterAtSign.indexOf('@') &&
+        afterAtSign.indexOf('.') - afterAtSign.indexOf('@') >1 &&
+        email.indexOf('@' > 0)
+    ){
+        document.getElementById('txt').innerHTML = "  "
+         document.getElementById('txt').style.color= "green";
+        document.getElementById('txt').style.fontSize = "10px";
+       }
+       else{
+        document.getElementById('txt').innerHTML = "*ایمیل را درست وارد کنید ";
+        document.getElementById('txt').style.color= "red";
+           document.getElementById('txt').style.fontSize = "10px";
+       }
+}
+
+
